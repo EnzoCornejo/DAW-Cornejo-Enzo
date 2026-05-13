@@ -219,7 +219,9 @@ img {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    position: relative;
 }
+
 .article-header .breadcrumbs {
     margin-bottom: 19px;
 }
@@ -268,5 +270,110 @@ img {
     gap: 15px;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 15px;
+        box-shadow: none;
+    }
 
+    .article-header h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
 
+    #main-header {
+        background-color: #ffffff;
+        margin-bottom: 4px;
+        width: 100%;
+    }
+
+    .site-header__main-part {
+        min-height: 60px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .site-logo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-toggle {
+        font-size: 1.5rem; 
+        display: flex;
+        align-items: center;
+    }
+
+    .site-logo img {
+        max-height: 25px;
+        width: auto;
+    }
+
+    .header-container {
+        padding: 0 20px;
+    }
+
+    .site-top-nav, .bottom-nav, .topmenu, .bottommenu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    .article-header h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    #main-header {
+        background-color: #ffffff;
+        margin-bottom: 4px;
+        width: 100%;
+    }
+
+    .site-header__main-part {
+        min-height: 60px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .site-logo {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-toggle {
+        font-size: 1.5rem; 
+        display: flex;
+        align-items: center;
+    }
+
+    .site-logo img {
+        max-height: 25px;
+        width: auto;
+    }
+
+    .header-container {
+        padding: 0 20px;
+    }
+
+    .site-top-nav, .bottom-nav, .topmenu, .bottommenu {
+        display: none;
+    }
+}
