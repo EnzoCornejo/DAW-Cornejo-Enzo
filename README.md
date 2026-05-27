@@ -35,9 +35,12 @@ Para realizar esta actividad, tengan en cuenta las siguientes indicaciones:
   - Breve descripción del objetivo del repositorio
 
 ## Actividad Clases 01 a 03
-* **Noticia replicada:** "Pese a comprar dólares, el Banco Central no logra recomponer reservas"
-* **Fuente Original:** [La Capital](https://www.lacapital.com.ar/economia/pese-comprar-dolares-el-banco-central-no-logra-recomponer-reservas-n10253828.html)
+**Noticia replicada:** "Pese a comprar dólares, el Banco Central no logra recomponer reservas"
+**Fuente Original:** [La Capital](https://www.lacapital.com.ar/economia/pese-comprar-dolares-el-banco-central-no-logra-recomponer-reservas-n10253828.html)
 
-## Actividad Clase 04
-* **Noticia replicada:** "Puente Rosario-Victoria: el tránsito con Telepase trepó al 50%"
-* **Fuente Original:** [La Capital](https://www.lacapital.com.ar/edicion-impresa/puente-rosario-victoria-el-transito-telepase-trepo-al-50-n10257594.html)
+## Actividad Clase 04 a 05
+**Noticia replicada:** "Puente Rosario-Victoria: el tránsito con Telepase trepó al 50%"
+**Fuente Original:** [La Capital](https://www.lacapital.com.ar/edicion-impresa/puente-rosario-victoria-el-transito-telepase-trepo-al-50-n10257594.html)
+
+## Trabajo Práctico 1
+**Enlace a GitHub Pages del repositorio:** [Repositorio](https://enzocornejo.github.io/DAW-Cornejo-Enzo/)
