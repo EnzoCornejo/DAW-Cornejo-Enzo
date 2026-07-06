@@ -232,6 +232,66 @@ img {
     gap: 15px;
 }
 
+/* --- ESTILOS DEL FORMULARIO DE SUSCRIPCIÓN --- */
+
+#subscription-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #000A2F;
+}
+
+.form-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 1rem;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #086DFF;
+    box-shadow: 0 0 5px rgba(8, 109, 255, 0.3);
+}
+
+.error-message {
+    color: #d9534f;
+    font-size: 0.85rem;
+    margin-top: 5px;
+    display: none;
+}
+
+.form-actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#submit-btn {
+    background-color: #086DFF;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#submit-btn:hover {
+    background-color: #005580;
+}
 
 /* Media query para escritorio */
 @media screen and (min-width: 768px) {
@@ -314,5 +374,20 @@ img {
 
     .bottommenu a:hover {
         color: #e6c057;
+    }
+
+/* Estilos para la página de suscripción */
+    .form-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+    .form-group {
+        margin-bottom: 0;
+    }
+    
+    .form-actions {
+        margin-top: 30px;
     }
 }
