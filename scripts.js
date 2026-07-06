@@ -119,6 +119,8 @@ document.addEventListener("DOMContentLoaded", () => {
             alert(errorData);
         } else {
             alert(successData);
+            // Redirección al inicio una vez que el usuario cierra el alert
+            window.location.href = 'index.html';
         }
     });
 });
